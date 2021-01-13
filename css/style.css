@@ -30,6 +30,12 @@ h1{
     border-color: #ede8e3;
 }
 
+#content_graph .list-group {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, 35px);
+  grid-gap: 10px;
+}
+
 .list-group-item{
 	background-color: #fcfcfe;
 }

@@ -122,9 +122,9 @@ $( document ).ready(function() {
 
 						if(summary_dict[college][school]['course_arr'][i]['members_count'] != 0 || summary_dict[college][school]['course_arr'][i]['friends_count'] != 0){
 							var msg = '<tr>';
-							msg += '<td class="col-4 align-middle">' +summary_dict[college][school]['course_arr'][i]['course']+ '</td>';
+							msg += '<td class="align-middle"><p style="width: 150px">' +summary_dict[college][school]['course_arr'][i]['course']+ '</p></td>';
 							msg += '<td class="col-8">';
-							msg += '<ul class="list-group list-group-horizontal borderless" >';
+							msg += '<ul class="list-group list-group-horizontal borderless " >';
 							for(var j=0; j<summary_dict[college][school]['course_arr'][i]['members_count']; j++){
 								msg += '<li class="list-group-item"><div class="dot member-bgcolour" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="'+summary_dict[college][school]['course_arr'][i]['members'][j]['name']+'"></div></li>';
 							}
