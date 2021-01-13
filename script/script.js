@@ -7,7 +7,7 @@ $( document ).ready(function() {
 		url: url,
 		type: "GET",
 		crossDomain: true,
-		async: false,
+		async: true,
 		dataType: "json",
 		contentType: 'application/json',
 		success: function (response) {
@@ -159,6 +159,8 @@ $( document ).ready(function() {
 			$(function () {
 			  $('[data-toggle="popover"]').popover()
 			})
+
+			$("#spinner").css("display","none");
 		}
 	});
 
