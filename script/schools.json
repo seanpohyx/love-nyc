@@ -1,0 +1,638 @@
+data_dict = {
+    "Accountancy": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Accountancy with a Minor in Digitalisation and Data Analytics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Accountancy with a Minor in International Trading": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Accountancy with a Minor in Strategic Communication": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Business with a Minor in International Trading": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Business with a Minor in Strategic Communication": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Design Art": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Media Art": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Communication Studies": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Communication Studies with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Arts Education": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Science Education": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Aerospace Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Aerospace Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Bioengineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Bioengineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Bioengineering with a Second Major in Food Science and Technology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Bioengineering with a Second Major in Pharmaceutical Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemical Biomolecular Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemical Biomolecular Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemical Biomolecular Engineering with a Second Major in Food Science and Technology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Civil Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Civil Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Civil Engineering with a Second Major in Society Urban Systems": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Computer Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Computer Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Computer Science": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Computer Science with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Data Science and Artificial Intelligence": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Electrical Electronic Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Electrical Electronic Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Electrical Electronic Engineering with a Second Major in Society Urban Systems": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Common Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Environmental Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Environmental Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Environmental Engineering with a Second Major in Society Urban Systems": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Information Engineering and Media": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Information Engineering and Media with a Second Major in Busines": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Materials Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Materials Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Materials Engineering with a Second Major in Medical Biology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Materials Engineering with a Second Major in Pharmaceutical Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mechanical Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mechanical Engineering with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mechanical Engineering with a Second Major in Society Urban Systems": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Maritime Studies": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Maritime Studies with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chinese": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "English": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "History": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Linguistics and Multilingual Studies": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Philosophy": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Medicine": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biological Sciences": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biological Sciences with a Second Major in Food Science and Technology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biological Sciences with a Second Major in Medicinal Chemistry and Pharmacology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biological Sciences with a Second Major in Biomedical Structural Biology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemistry Biological Chemistry": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemistry Biological Chemistry with Second Major in Business International Trading": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemistry and Biological Chemistry with Second Major in Environmental Science": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemistry Biological Chemistry with a Second Major in Food Science and Technology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Environmental Earth Systems Science": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mathematical Sciences": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mathematical Sciences with a Minor in Finance": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Physics and Applied Physics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Applied Physics with Second Major in Microelectronics Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Economics with a Second Major in Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Psychology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Psychology with a Second Major in Biological Sciences": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Public Policy and Global Affairs": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Sociology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Sport Science and Management": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Accountancy and Business": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biomedical Sciences and Chinese Medicine": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Business and Computing": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Business and Computer Engineering": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Aerospace Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Bioengineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Chemical and Biomolecular Engineering Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Civil Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Computer Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Computer Science and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Electrical and Electronic Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Environmental Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Information Engineering and Media Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Materials Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mechanical Engineering and Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biomedical Sciences and BioBusiness": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Biological Sciences and Psychology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Economics and Media Analytics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Economics and Psychology": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Economics and Public Policy and Global Affairs": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "English Literature and Art History": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Environmental Earth Systems Science and Public Policy and Global Affairs": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mathematical and Computer Sciences": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Mathematical Sciences And Economics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Physics and Mathematical Sciences": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Psychology and Media Analytics": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Psychology and Linguistics and Multilingual Studies": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "CN Yang Scholars Programme": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Renaissance Engineering Programme": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "NTU University Scholars Programme": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "NTUNIE Teaching Scholars Programme": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    },
+    "Undergraduate Research URECA Programme": {
+        "members": [],
+        "friends": [],
+        "members_count": 0,
+        "friends_count": 0
+    }
+}

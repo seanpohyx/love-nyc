@@ -1,18 +1,87 @@
 body{
 	width: 100%;
 	height: 100%;
+	background-color: #ede8e3;
+	color:#464648;
+	font-family: Avenir_Next_Condensed;
+	font-weight: normal;
 }
 
-.teal-bgcolour{
-	background-color:#59AFBA;
+p{
+	color: #464648;
 }
 
-.yellow-bgcolour{
-	background-color: #F0D096
+h1{
+	color: #464648;
 }
 
-.pink-bgcolour{
-	background-color: #F3C8C5
+.table{
+	background-color: #fcfcfe;
+	color: #464648;
+
+}
+
+.table thead th {
+
+    border-color: #ede8e3;
+}
+
+.table td, .table th {
+    border-color: #ede8e3;
+}
+
+.list-group-item{
+	background-color: #fcfcfe;
+}
+
+@font-face {
+  font-family: gloss_and_bloom;
+  src: url(./fonts/Gloss_And_Bloom.ttf);
+}
+
+@font-face {
+  font-family: Avenir_Next_Condensed;
+  src: url(./fonts/Avenir_Next_Condensed.ttc);
+}
+
+.font-bold{
+	font-weight: bold;
+}
+
+.gab_font{
+	font-family: gloss_and_bloom;
+}
+
+.ANC_font{
+	font-family: Avenir_Next_Condensed;
+}
+
+.member-bgcolour{
+	background-color:#818b96;
+}
+
+.friend-bgcolour{
+	background-color: #ced4d8
+}
+
+.teal-colour{
+	color:#818b96;
+}
+
+.yellow-colour{
+	color: #ced4d8
+}
+
+.font-16{
+	font-size: 16pt
+}
+
+.font-20{
+	font-size: 20pt
+}
+
+.font-43{
+	font-size: 43pt
 }
 
 .dot {
@@ -24,4 +93,33 @@ body{
 
 .borderless li{
 	border: none;
+}
+
+.custom-padding li{
+	padding: 0.3rem 1.25rem;
+}
+
+tr.hide-table-padding td {
+  padding: 0;
+}
+
+.expand-button {
+	position: relative;
+}
+
+.accordion-toggle .expand-button:after
+{
+  position: absolute;
+  left:.75rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  content: '-';
+}
+.accordion-toggle.collapsed .expand-button:after
+{
+  content: '+';
+}
+
+#legend .list-group-item{
+	background-color: #ede8e3
 }
