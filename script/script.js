@@ -26,10 +26,19 @@ $( document ).ready(function() {
 					var thecourseoffriend2 = row_d['thecourseoffriend2']
 					var thecourseoffriend3 = row_d['thecourseoffriend3']
 
+					var courseExist = false;
+
 					if(data_dict[course] == undefined || data_dict[course] == null)
 						continue
+
+					data_dict[course]['members'].filter(function(item){
+					  if(item.name === name && item.lg === lg){
+					    courseExist = true;
+					  }
+					});
+
 					// add member
-					if(data_dict[course]['members'].indexOf({"name": name, "lg": lg}) == -1){
+					if(!courseExist){
 						data_dict[course]['members'].push({"name": name, "lg": lg});
 						data_dict[course]['members_count'] += 1
 					}
@@ -57,6 +66,8 @@ $( document ).ready(function() {
 							data_dict[thecourseoffriend3]['friends_count'] += 1
 						}
 					}
+
+					courseExist = false;
 
 				}
 
