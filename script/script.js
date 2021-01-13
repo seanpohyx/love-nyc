@@ -35,7 +35,7 @@ $( document ).ready(function() {
 					}
 
 					// add friend 1
-					if(nameoffriend1 != '0'){
+					if(nameoffriend1 != '0' && thecourseoffriend1 != '0'){
 						if(data_dict[thecourseoffriend1]['friends'].indexOf({"name": name, "nameoffriend": nameoffriend1}) == -1){
 							data_dict[thecourseoffriend1]['friends'].push({"name": name, "nameoffriend": nameoffriend1});
 							data_dict[thecourseoffriend1]['friends_count'] += 1
@@ -43,7 +43,7 @@ $( document ).ready(function() {
 					}
 					
 					// add friend 2
-					if(nameoffriend2 != '0'){
+					if(nameoffriend2 != '0' && thecourseoffriend2 != '0'){
 						if(data_dict[thecourseoffriend2]['friends'].indexOf({"name": name, "nameoffriend": nameoffriend2}) == -1){
 							data_dict[thecourseoffriend2]['friends'].push({"name": name, "nameoffriend": nameoffriend2});
 							data_dict[thecourseoffriend2]['friends_count'] += 1
@@ -51,7 +51,7 @@ $( document ).ready(function() {
 					}
 
 					// add friend 3
-					if(nameoffriend3 != '0'){
+					if(nameoffriend3 != '0' && thecourseoffriend3 != '0'){
 						if(data_dict[thecourseoffriend3]['friends'].indexOf({"name": name, "nameoffriend": nameoffriend3}) == -1){
 							data_dict[thecourseoffriend3]['friends'].push({"name": name, "nameoffriend": nameoffriend3});
 							data_dict[thecourseoffriend3]['friends_count'] += 1
