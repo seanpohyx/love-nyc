@@ -1,8 +1,6 @@
 
 
 $( document ).ready(function() {
-	// console.log(data_dict)
-    // var url = "https://spreadsheets.google.com/feeds/cells/1ZK3Zg_-AkTR7vVvt8CJF_eDcQ_y4Y4D1UwcvCz6a41w/1/public/full?alt=json"; 
     
     var url = "https://gsx2json.com/api?id=" + id;                                                       
 	$.ajax({
@@ -13,7 +11,6 @@ $( document ).ready(function() {
 		dataType: "json",
 		contentType: 'application/json',
 		success: function (response) {
-			console.log(response)
 
 			if(response != null){
 				for(var i=0; i<response['rows'].length; i++){
@@ -170,7 +167,6 @@ $( document ).ready(function() {
 });
 
 function generateDictionary(dict){
-	console.log(dict)
 	var new_dictionary = {}
 	var school, college, holder;
 
