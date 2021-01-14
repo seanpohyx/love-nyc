@@ -17,7 +17,7 @@ $( document ).ready(function() {
 					// console.log(response['rows'][i])
 					var row_d = response['rows'][i]
 					var course = row_d['course']
-					var name = row_d['name']
+					var name = row_d['name'].replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase())
 					var lg = row_d['lg']
 					var nameoffriend1 = row_d['nameoffriend1']
 					var nameoffriend2 = row_d['nameoffriend2']
@@ -27,7 +27,7 @@ $( document ).ready(function() {
 					var thecourseoffriend3 = row_d['thecourseoffriend3']
 
 					var courseExist = false;
-
+					
 					if(data_dict[course] == undefined || data_dict[course] == null)
 						continue
 
@@ -45,6 +45,7 @@ $( document ).ready(function() {
 
 					// add friend 1
 					if(nameoffriend1 != '0' && thecourseoffriend1 != '0'){
+						nameoffriend1 = nameoffriend1.replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
 						if(data_dict[thecourseoffriend1]['friends'].indexOf({"name": name, "nameoffriend": nameoffriend1}) == -1){
 							data_dict[thecourseoffriend1]['friends'].push({"name": name, "nameoffriend": nameoffriend1});
 							data_dict[thecourseoffriend1]['friends_count'] += 1
@@ -53,6 +54,7 @@ $( document ).ready(function() {
 					
 					// add friend 2
 					if(nameoffriend2 != '0' && thecourseoffriend2 != '0'){
+						nameoffriend2 = nameoffriend2.replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
 						if(data_dict[thecourseoffriend2]['friends'].indexOf({"name": name, "nameoffriend": nameoffriend2}) == -1){
 							data_dict[thecourseoffriend2]['friends'].push({"name": name, "nameoffriend": nameoffriend2});
 							data_dict[thecourseoffriend2]['friends_count'] += 1
@@ -61,6 +63,7 @@ $( document ).ready(function() {
 
 					// add friend 3
 					if(nameoffriend3 != '0' && thecourseoffriend3 != '0'){
+						nameoffriend3 = nameoffriend3.replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
 						if(data_dict[thecourseoffriend3]['friends'].indexOf({"name": name, "nameoffriend": nameoffriend3}) == -1){
 							data_dict[thecourseoffriend3]['friends'].push({"name": name, "nameoffriend": nameoffriend3});
 							data_dict[thecourseoffriend3]['friends_count'] += 1
