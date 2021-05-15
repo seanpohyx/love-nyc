@@ -1,4 +1,4 @@
-# nyc-outreach
+# Love Nanyang Campus
 
 This project is constructed for my church community. We wanted to make a commitment to bless the students within NTU starting with our friends. It started with us filling up google forms and the friends that we wished to bless within this semester. But, this needed a form of visual representation to motivate us. Therefore, inspiring to start this simple website. 
 
